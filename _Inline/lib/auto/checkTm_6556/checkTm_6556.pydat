@@ -1,0 +1,17 @@
+namespace : %
+    classes : %
+    functions : @
+        primer3_filter
+filtered : <<EOV
+
+import primer3
+
+def primer3_filter(sequence, mintm=37, maxhtm=35, dtm=10):
+
+   tm = primer3.calcTm(sequence)
+   htm = primer3.calcHairpinTm(sequence)
+
+   return (tm,htm)
+
+
+EOV
