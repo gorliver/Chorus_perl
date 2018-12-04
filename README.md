@@ -45,3 +45,13 @@ python:
                -q              max tm for hairpin (htm) of probe, default is 35
                -d              min differences between tm and htm, default is 10
                -e              number of threads, default is 4
+
+
+
+# run Chorus_perl
+
+
+    Design probe for chr1.fa:
+    ```{bash}
+    perl Chorus_perl.pl -gs wholeGenome.fa -t chr1.fa -n 3 -e 20
+    ```
