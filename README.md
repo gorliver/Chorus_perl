@@ -17,7 +17,7 @@ external tools:
     KMC3.0 (http://sun.aei.polsl.pl/kmc)
 
 
-python
+python:
 
     primer3-py (https://pypi.python.org/pypi/primer3-py)
 
