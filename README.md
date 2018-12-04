@@ -52,6 +52,6 @@ python:
 
 Design probe for chr1.fa:
 
-    ```{bash}
+
     perl Chorus_perl.pl -gs wholeGenome.fa -t chr1.fa -n 3 -e 20
-    ```
+
