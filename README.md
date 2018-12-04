@@ -1,6 +1,6 @@
 # Chorus_perl
 A perl implement of Chorus idea. Checkout https://github.com/forrestzhang/Chorus.
-This project is just for learning purpose. Chorus_perl by no means to take any credit. All the credits and citatation should refer to https://github.com/forrestzhang/Chorus.
+This project is just for learning purpose. Chorus_perl is by no means to take any credit. All the credits and citatation should refer to https://github.com/forrestzhang/Chorus.
 
 # requirement
 
