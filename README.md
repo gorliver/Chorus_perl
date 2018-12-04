@@ -29,8 +29,9 @@ python:
     Options:
 
             -help              this help message
-              -gs              genome sequence file, mandatory
-               -t              target sequence file, mandatory
+              -gs              genome sequence file (while genome, including unanchored scaffolds/contigs), MANDATORY
+               -t              target sequence file (could be one region or one chromosome. could be whole genome but not recommended),
+                               MNADATORY
               -km              pre-calculated kmer profile
               -uk              uniq kmer cutoff, default is 1 for genomic, but if not use genomic for kmer profile, set accordingly
                -s              step of ajacent probe , default is every 5bp.
